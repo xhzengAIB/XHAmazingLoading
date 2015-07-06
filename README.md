@@ -22,15 +22,15 @@ and run `pod install`, then you're all done!
 ```objc
 #import "XHAmazingLoadingView.h"
     
-    XHAmazingLoadingView *amazingLoadingView = [[XHAmazingLoadingView alloc] initWithType:XHAmazingLoadingAnimationTypeMusic];
-    amazingLoadingView.loadingTintColor = [UIColor redColor];
-    amazingLoadingView.backgroundTintColor = [UIColor whiteColor];
-    amazingLoadingView.frame = self.view.bounds;
-    [self.view addSubview:amazingLoadingView];
+XHAmazingLoadingView *amazingLoadingView = [[XHAmazingLoadingView alloc] initWithType:XHAmazingLoadingAnimationTypeMusic];
+amazingLoadingView.loadingTintColor = [UIColor redColor];
+amazingLoadingView.backgroundTintColor = [UIColor whiteColor];
+amazingLoadingView.frame = self.view.bounds;
+[self.view addSubview:amazingLoadingView];
     
-    [amazingLoadingView startAnimating];
+[amazingLoadingView startAnimating];
 
-    loading data after that call stopAnimating method.
+loading data after that call stopAnimating method.
 
 ```
 
