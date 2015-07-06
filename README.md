@@ -18,6 +18,22 @@ and run `pod install`, then you're all done!
 * iOS 6.0+ 
 * ARC
 
+## How to use
+```objc
+#import "XHAmazingLoadingView.h"
+    
+    XHAmazingLoadingView *amazingLoadingView = [[XHAmazingLoadingView alloc] initWithType:XHAmazingLoadingAnimationTypeMusic];
+    amazingLoadingView.loadingTintColor = [UIColor redColor];
+    amazingLoadingView.backgroundTintColor = [UIColor whiteColor];
+    amazingLoadingView.frame = self.view.bounds;
+    [self.view addSubview:amazingLoadingView];
+    
+    [amazingLoadingView startAnimating];
+
+    loading data after that call stopAnimating method.
+
+```
+
 ## License
 
 XHAmazingLoading is available under the MIT license, see the LICENSE file for more information.     
