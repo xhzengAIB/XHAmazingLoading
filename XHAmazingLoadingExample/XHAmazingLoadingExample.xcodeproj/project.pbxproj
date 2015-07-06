@@ -17,6 +17,7 @@
 		E467594A1B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759441B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m */; };
 		E467594B1B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759461B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m */; };
 		E467594E1B4A562600BBA51E /* XHAmazingLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E467594D1B4A562600BBA51E /* XHAmazingLoadingView.m */; };
+		E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759511B4A578600BBA51E /* XHLayerHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		E46759481B4A561A00BBA51E /* XHAmazingLoadingAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAmazingLoadingAnimationProtocol.h; sourceTree = "<group>"; };
 		E467594C1B4A562600BBA51E /* XHAmazingLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAmazingLoadingView.h; sourceTree = "<group>"; };
 		E467594D1B4A562600BBA51E /* XHAmazingLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAmazingLoadingView.m; sourceTree = "<group>"; };
+		E46759501B4A578600BBA51E /* XHLayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLayerHelper.h; sourceTree = "<group>"; };
+		E46759511B4A578600BBA51E /* XHLayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLayerHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 		E46759411B4A561A00BBA51E /* XHAmazingLoading */ = {
 			isa = PBXGroup;
 			children = (
+				E467594F1B4A577300BBA51E /* Helpers */,
 				E46759421B4A561A00BBA51E /* Animations */,
 				E46759471B4A561A00BBA51E /* Protocol */,
 				E46759491B4A561A00BBA51E /* View */,
@@ -167,6 +171,15 @@
 				E467594D1B4A562600BBA51E /* XHAmazingLoadingView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E467594F1B4A577300BBA51E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E46759501B4A578600BBA51E /* XHLayerHelper.h */,
+				E46759511B4A578600BBA51E /* XHLayerHelper.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			files = (
 				E467591C1B4A559100BBA51E /* ViewController.m in Sources */,
 				E467594B1B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m in Sources */,
+				E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */,
 				E46759191B4A559100BBA51E /* AppDelegate.m in Sources */,
 				E46759161B4A559100BBA51E /* main.m in Sources */,
 				E467594A1B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m in Sources */,
