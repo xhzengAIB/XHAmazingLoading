@@ -10,4 +10,7 @@
 
 @protocol XHAmazingLoadingAnimationProtocol <NSObject>
 
+// 抽象协议
+- (void)configureAnimationInLayer:(CALayer *)layer withSize:(CGSize)size tintColor:(UIColor *)tintColor;
+
 @end
