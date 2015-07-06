@@ -11,4 +11,10 @@
 
 @interface XHLayerHelper : NSObject
 
++ (void)addTextLayerWithText:(NSString *)text atLayer:(CALayer *)layer;
+
++ (CAReplicatorLayer *)addReplicatorLayerWithFrame:(CGRect)frame atLayer:(CALayer *)layer;
+
++ (CGRect)initializerFrameWithSize:(CGSize)size;
+
 @end
