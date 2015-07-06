@@ -17,7 +17,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     XHAmazingLoadingView *amazingLoadingView = [[XHAmazingLoadingView alloc] initWithType:XHAmazingLoadingAnimationTypeMusic];
-    amazingLoadingView.tintColor = [UIColor redColor];
+    amazingLoadingView.loadingTintColor = [UIColor redColor];
     amazingLoadingView.backgroundTintColor = [UIColor whiteColor];
     amazingLoadingView.frame = self.view.bounds;
     [self.view addSubview:amazingLoadingView];

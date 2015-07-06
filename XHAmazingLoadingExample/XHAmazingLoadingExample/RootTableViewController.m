@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.title = @"主页";
     
     NSMutableArray *dataSource = [[NSMutableArray alloc] init];
     [kRootItems enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
@@ -59,6 +60,7 @@
     
     Class currentClass = NSClassFromString(item.className);
     UIViewController *viewController = [[currentClass alloc] init];
+    viewController.title = item.title;
     if (viewController) {
         [self.navigationController pushViewController:viewController animated:YES];
     }

@@ -15,8 +15,10 @@
 @implementation XHAmazingLoadingStarAnimation
 
 - (void)configureAnimationInLayer:(CALayer *)layer withSize:(CGSize)size tintColor:(UIColor *)tintColor {
-    CGRect replicatorLayerFrame = [XHLayerHelper initializerFrameWithSize:size];
+    // 这个动画基于这个来源的：http://www.ios-animations-by-emails.com/posts/2015-march#tutorial
     
+    
+    CGRect replicatorLayerFrame = [XHLayerHelper initializerFrameWithSize:size];
     CAReplicatorLayer *replicatorLayer = [XHLayerHelper addReplicatorLayerWithFrame:replicatorLayerFrame atLayer:layer];
     
     [self addAnimationDotLayerAtLayer:replicatorLayer tintColor:tintColor];
