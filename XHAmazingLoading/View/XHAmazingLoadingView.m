@@ -51,6 +51,7 @@
     
     [self setupAmazingLoadingSizeWithAnimationType:self.type];
     
+    // 检验遵守协议的对象是否实现了协议方法
     if ([animation respondsToSelector:@selector(configureAnimationInLayer:withSize:tintColor:)]) {
         [self setupFadeOutState];
         [animation configureAnimationInLayer:self.layer withSize:CGSizeMake(self.size, self.size) tintColor:self.loadingTintColor];
