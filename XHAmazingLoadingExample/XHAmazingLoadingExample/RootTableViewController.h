@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootTableViewController.h
 //  XHAmazingLoadingExample
 //
 //  Created by Jack_iMac on 15/7/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootTableViewController : UITableViewController
 
 @end
-

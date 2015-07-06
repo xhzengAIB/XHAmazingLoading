@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E46759161B4A559100BBA51E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759151B4A559100BBA51E /* main.m */; };
 		E46759191B4A559100BBA51E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759181B4A559100BBA51E /* AppDelegate.m */; };
-		E467591C1B4A559100BBA51E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E467591B1B4A559100BBA51E /* ViewController.m */; };
 		E467591F1B4A559100BBA51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E467591D1B4A559100BBA51E /* Main.storyboard */; };
 		E46759211B4A559100BBA51E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46759201B4A559100BBA51E /* Images.xcassets */; };
 		E46759241B4A559100BBA51E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46759221B4A559100BBA51E /* LaunchScreen.xib */; };
@@ -18,6 +17,10 @@
 		E467594B1B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759461B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m */; };
 		E467594E1B4A562600BBA51E /* XHAmazingLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E467594D1B4A562600BBA51E /* XHAmazingLoadingView.m */; };
 		E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759511B4A578600BBA51E /* XHLayerHelper.m */; };
+		E46759551B4A598600BBA51E /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759541B4A598600BBA51E /* RootTableViewController.m */; };
+		E46759581B4A5A2600BBA51E /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759571B4A5A2600BBA51E /* DemoItem.m */; };
+		E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */; };
+		E467595E1B4A5AA300BBA51E /* StarAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,6 @@
 		E46759151B4A559100BBA51E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E46759171B4A559100BBA51E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E46759181B4A559100BBA51E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E467591A1B4A559100BBA51E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E467591B1B4A559100BBA51E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E467591E1B4A559100BBA51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E46759201B4A559100BBA51E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E46759231B4A559100BBA51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -53,6 +54,14 @@
 		E467594D1B4A562600BBA51E /* XHAmazingLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAmazingLoadingView.m; sourceTree = "<group>"; };
 		E46759501B4A578600BBA51E /* XHLayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLayerHelper.h; sourceTree = "<group>"; };
 		E46759511B4A578600BBA51E /* XHLayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLayerHelper.m; sourceTree = "<group>"; };
+		E46759531B4A598600BBA51E /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		E46759541B4A598600BBA51E /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		E46759561B4A5A2600BBA51E /* DemoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoItem.h; sourceTree = "<group>"; };
+		E46759571B4A5A2600BBA51E /* DemoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoItem.m; sourceTree = "<group>"; };
+		E46759591B4A5A9600BBA51E /* MusicsAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicsAnimationExample.h; sourceTree = "<group>"; };
+		E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicsAnimationExample.m; sourceTree = "<group>"; };
+		E467595C1B4A5AA300BBA51E /* StarAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarAnimationExample.h; sourceTree = "<group>"; };
+		E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarAnimationExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +106,14 @@
 			children = (
 				E46759171B4A559100BBA51E /* AppDelegate.h */,
 				E46759181B4A559100BBA51E /* AppDelegate.m */,
-				E467591A1B4A559100BBA51E /* ViewController.h */,
-				E467591B1B4A559100BBA51E /* ViewController.m */,
+				E46759561B4A5A2600BBA51E /* DemoItem.h */,
+				E46759571B4A5A2600BBA51E /* DemoItem.m */,
+				E46759531B4A598600BBA51E /* RootTableViewController.h */,
+				E46759541B4A598600BBA51E /* RootTableViewController.m */,
+				E46759591B4A5A9600BBA51E /* MusicsAnimationExample.h */,
+				E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */,
+				E467595C1B4A5AA300BBA51E /* StarAnimationExample.h */,
+				E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */,
 				E467591D1B4A559100BBA51E /* Main.storyboard */,
 				E46759201B4A559100BBA51E /* Images.xcassets */,
 				E46759221B4A559100BBA51E /* LaunchScreen.xib */,
@@ -282,12 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E467591C1B4A559100BBA51E /* ViewController.m in Sources */,
 				E467594B1B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m in Sources */,
+				E467595E1B4A5AA300BBA51E /* StarAnimationExample.m in Sources */,
+				E46759581B4A5A2600BBA51E /* DemoItem.m in Sources */,
 				E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */,
 				E46759191B4A559100BBA51E /* AppDelegate.m in Sources */,
 				E46759161B4A559100BBA51E /* main.m in Sources */,
+				E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */,
 				E467594A1B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m in Sources */,
+				E46759551B4A598600BBA51E /* RootTableViewController.m in Sources */,
 				E467594E1B4A562600BBA51E /* XHAmazingLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
