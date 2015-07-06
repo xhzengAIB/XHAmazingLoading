@@ -12,6 +12,11 @@ pod 'XHAmazingLoading'
 
 and run `pod install`, then you're all done!
 
+## Requirements
+
+* Xcode6 or later
+* iOS 6.0+ 
+* ARC
 
 ## License
 
