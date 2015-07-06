@@ -11,11 +11,11 @@
 @implementation XHLayerHelper
 
 + (void)addTextLayerWithText:(NSString *)text atLayer:(CALayer *)layer {
-    CGRect textRect = CGRectMake(47, 82, 100, 40);
+    CGRect textRect = CGRectMake(47, 85, 100, 40);
     CATextLayer *labelLayer = [[CATextLayer alloc] init];
     labelLayer.contentsScale = [[UIScreen mainScreen] scale];
     labelLayer.font = (__bridge CFStringRef)@"Arial-ItalicMT";
-    [labelLayer setFontSize:30];
+    [labelLayer setFontSize:28];
     [labelLayer setFrame:textRect];
     [labelLayer setString:text];
     [labelLayer setAlignmentMode:kCAAlignmentCenter];
