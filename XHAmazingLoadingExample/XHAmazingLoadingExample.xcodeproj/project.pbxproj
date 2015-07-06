@@ -40,6 +40,7 @@
 		E46759291B4A559100BBA51E /* XHAmazingLoadingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHAmazingLoadingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E467592E1B4A559100BBA51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E467592F1B4A559100BBA51E /* XHAmazingLoadingExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHAmazingLoadingExampleTests.m; sourceTree = "<group>"; };
+		E467593A1B4A55BC00BBA51E /* XHAmazingLoadingAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAmazingLoadingAnimationProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 		E46759071B4A559100BBA51E = {
 			isa = PBXGroup;
 			children = (
+				E46759391B4A55B100BBA51E /* XHAmazingLoading */,
 				E46759121B4A559100BBA51E /* XHAmazingLoadingExample */,
 				E467592C1B4A559100BBA51E /* XHAmazingLoadingExampleTests */,
 				E46759111B4A559100BBA51E /* Products */,
@@ -117,6 +119,15 @@
 				E467592E1B4A559100BBA51E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46759391B4A55B100BBA51E /* XHAmazingLoading */ = {
+			isa = PBXGroup;
+			children = (
+				E467593A1B4A55BC00BBA51E /* XHAmazingLoadingAnimationProtocol.h */,
+			);
+			name = XHAmazingLoading;
+			path = ../XHAmazingLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
