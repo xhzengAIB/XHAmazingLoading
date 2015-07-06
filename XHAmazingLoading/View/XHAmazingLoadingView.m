@@ -11,7 +11,7 @@
 #import "XHAmazingLoadingStarAnimation.h"
 
 #define kXHAmazingLoadingDefaultSize 60.0f
-#define kXHAmazingLoadingDefaultTintColor [UIColor colorWithRed:287/255.0f green:105/255.0f blue:121/255.0f alpha:1.0f]
+#define kXHAmazingLoadingDefaultTintColor [UIColor colorWithRed:0.049 green:0.849 blue:1.000 alpha:1.000]
 
 @interface XHAmazingLoadingView ()
 

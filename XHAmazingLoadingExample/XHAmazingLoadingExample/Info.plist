@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>iOS------------------UI-QQ-543413507-http---www.pailixiu.com-blog---http---www.pailixiu.com-Jack-personal..$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.HUAJIE.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
