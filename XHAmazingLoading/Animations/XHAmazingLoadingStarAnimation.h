@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface XHAmazingLoadingStarAnimation : NSObject
+#import "XHAmazingLoadingAnimationProtocol.h"
+
+@interface XHAmazingLoadingStarAnimation : NSObject <XHAmazingLoadingAnimationProtocol>
 
 @end

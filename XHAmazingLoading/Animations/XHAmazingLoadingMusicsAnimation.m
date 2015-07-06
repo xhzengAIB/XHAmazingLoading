@@ -8,6 +8,13 @@
 
 #import "XHAmazingLoadingMusicsAnimation.h"
 
+#define kXHAmazingLoadingDuration 4.0f
+#define kXHAmazingLoadingDotNumber 29
+
 @implementation XHAmazingLoadingMusicsAnimation
+
+- (void)configureAnimationInLayer:(CALayer *)layer withSize:(CGSize)size tintColor:(UIColor *)tintColor {
+    
+}
 
 @end

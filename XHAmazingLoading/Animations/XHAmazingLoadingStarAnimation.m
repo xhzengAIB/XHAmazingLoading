@@ -10,4 +10,8 @@
 
 @implementation XHAmazingLoadingStarAnimation
 
+- (void)configureAnimationInLayer:(CALayer *)layer withSize:(CGSize)size tintColor:(UIColor *)tintColor {
+    
+}
+
 @end
