@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.title = @"主页";
+    self.title = @"疯狂Loading";
     
     NSMutableArray *dataSource = [[NSMutableArray alloc] init];
     [kRootItems enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
