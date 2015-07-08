@@ -21,6 +21,7 @@
 		E46759581B4A5A2600BBA51E /* DemoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E46759571B4A5A2600BBA51E /* DemoItem.m */; };
 		E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */; };
 		E467595E1B4A5AA300BBA51E /* StarAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */; };
+		E4EABE131B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABE121B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicsAnimationExample.m; sourceTree = "<group>"; };
 		E467595C1B4A5AA300BBA51E /* StarAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarAnimationExample.h; sourceTree = "<group>"; };
 		E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarAnimationExample.m; sourceTree = "<group>"; };
+		E4EABE111B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAmazingLoadingSkypeAnimation.h; sourceTree = "<group>"; };
+		E4EABE121B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAmazingLoadingSkypeAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				E46759441B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m */,
 				E46759451B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.h */,
 				E46759461B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m */,
+				E4EABE111B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.h */,
+				E4EABE121B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */,
 				E46759191B4A559100BBA51E /* AppDelegate.m in Sources */,
 				E46759161B4A559100BBA51E /* main.m in Sources */,
+				E4EABE131B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m in Sources */,
 				E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */,
 				E467594A1B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m in Sources */,
 				E46759551B4A598600BBA51E /* RootTableViewController.m in Sources */,
@@ -503,6 +509,7 @@
 				E46759351B4A559100BBA51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E46759361B4A559100BBA51E /* Build configuration list for PBXNativeTarget "XHAmazingLoadingExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				E46759381B4A559100BBA51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
