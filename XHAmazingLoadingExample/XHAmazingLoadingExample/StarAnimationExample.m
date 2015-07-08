@@ -15,6 +15,8 @@
     self = [super init];
     if (self) {
         self.amazingLoadingAnimationType = XHAmazingLoadingAnimationTypeStar;
+        
+        self.delayTime = 4;
     }
     return self;
 }

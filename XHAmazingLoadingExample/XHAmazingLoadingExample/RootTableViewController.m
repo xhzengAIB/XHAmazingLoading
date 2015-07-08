@@ -12,9 +12,9 @@
 
 #define kRootItems \
 @[ \
+@{@"title" : @"Skype", @"className" : @"SkypeAnimationExample"}, \
 @{@"title" : @"音乐跳动", @"className" : @"MusicsAnimationExample"}, \
 @{@"title" : @"星星", @"className" : @"StarAnimationExample"}, \
-@{@"title" : @"Skype", @"className" : @"SkypeAnimationExample"}, \
 ]
 
 @interface RootTableViewController ()

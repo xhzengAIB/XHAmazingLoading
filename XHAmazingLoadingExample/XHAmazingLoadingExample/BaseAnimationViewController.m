@@ -25,6 +25,8 @@
 - (void)setup {
     self.loadingTintColor = [UIColor redColor];
     self.backgroundTintColor = [UIColor whiteColor];
+    
+    self.delayTime = 2;
 }
 
 - (void)viewDidLoad {
@@ -40,7 +42,7 @@
     
     [amazingLoadingView startAnimating];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(self.delayTime * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [amazingLoadingView stopAnimating];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [amazingLoadingView startAnimating];

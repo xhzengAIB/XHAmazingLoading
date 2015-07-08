@@ -15,4 +15,6 @@
 @property (nonatomic, strong) UIColor *backgroundTintColor;
 @property (nonatomic, strong) UIColor *loadingTintColor;
 
+@property (nonatomic, assign) NSTimeInterval delayTime;
+
 @end
