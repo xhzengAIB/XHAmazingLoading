@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseAnimationViewController.h"
 
-@interface StarAnimationExample : UIViewController
+@interface StarAnimationExample : BaseAnimationViewController
 
 @end

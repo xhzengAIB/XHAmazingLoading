@@ -9,6 +9,7 @@
 #import "XHAmazingLoadingView.h"
 #import "XHAmazingLoadingMusicsAnimation.h"
 #import "XHAmazingLoadingStarAnimation.h"
+#import "XHAmazingLoadingSkypeAnimation.h"
 
 #define kXHAmazingLoadingDefaultSize 60.0f
 #define kXHAmazingLoadingDefaultTintColor [UIColor colorWithRed:0.049 green:0.849 blue:1.000 alpha:1.000]
@@ -78,6 +79,9 @@
         case XHAmazingLoadingAnimationTypeStar:
             self.size = 200;
             break;
+        case XHAmazingLoadingAnimationTypeSkype:
+            self.size = 150;
+            break;
         default:
             break;
     }
@@ -140,6 +144,8 @@
             return [[XHAmazingLoadingStarAnimation alloc] init];
         case XHAmazingLoadingAnimationTypeMusic:
             return [[XHAmazingLoadingMusicsAnimation alloc] init];
+        case XHAmazingLoadingAnimationTypeSkype:
+            return [[XHAmazingLoadingSkypeAnimation alloc] init];
     }
     return nil;
 }

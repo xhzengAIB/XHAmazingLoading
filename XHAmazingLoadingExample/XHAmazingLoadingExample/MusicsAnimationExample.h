@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseAnimationViewController.h"
 
-@interface MusicsAnimationExample : UIViewController
+@interface MusicsAnimationExample : BaseAnimationViewController
 
 @end

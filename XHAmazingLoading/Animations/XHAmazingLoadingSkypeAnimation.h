@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XHAmazingLoadingSkypeAnimation : NSObject
+#import "XHAmazingLoadingAnimationProtocol.h"
+
+@interface XHAmazingLoadingSkypeAnimation : NSObject <XHAmazingLoadingAnimationProtocol>
 
 @end

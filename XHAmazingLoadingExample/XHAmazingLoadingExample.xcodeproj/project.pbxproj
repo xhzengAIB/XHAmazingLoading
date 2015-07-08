@@ -22,6 +22,8 @@
 		E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */; };
 		E467595E1B4A5AA300BBA51E /* StarAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */; };
 		E4EABE131B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABE121B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m */; };
+		E4EABE161B4D216600408810 /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABE151B4D216600408810 /* BaseAnimationViewController.m */; };
+		E4EABE191B4D219E00408810 /* SkypeAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EABE181B4D219E00408810 /* SkypeAnimationExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarAnimationExample.m; sourceTree = "<group>"; };
 		E4EABE111B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAmazingLoadingSkypeAnimation.h; sourceTree = "<group>"; };
 		E4EABE121B4D1B2900408810 /* XHAmazingLoadingSkypeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAmazingLoadingSkypeAnimation.m; sourceTree = "<group>"; };
+		E4EABE141B4D216600408810 /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
+		E4EABE151B4D216600408810 /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
+		E4EABE171B4D219E00408810 /* SkypeAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkypeAnimationExample.h; sourceTree = "<group>"; };
+		E4EABE181B4D219E00408810 /* SkypeAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkypeAnimationExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +119,14 @@
 				E46759571B4A5A2600BBA51E /* DemoItem.m */,
 				E46759531B4A598600BBA51E /* RootTableViewController.h */,
 				E46759541B4A598600BBA51E /* RootTableViewController.m */,
+				E4EABE141B4D216600408810 /* BaseAnimationViewController.h */,
+				E4EABE151B4D216600408810 /* BaseAnimationViewController.m */,
 				E46759591B4A5A9600BBA51E /* MusicsAnimationExample.h */,
 				E467595A1B4A5A9600BBA51E /* MusicsAnimationExample.m */,
 				E467595C1B4A5AA300BBA51E /* StarAnimationExample.h */,
 				E467595D1B4A5AA300BBA51E /* StarAnimationExample.m */,
+				E4EABE171B4D219E00408810 /* SkypeAnimationExample.h */,
+				E4EABE181B4D219E00408810 /* SkypeAnimationExample.m */,
 				E467591D1B4A559100BBA51E /* Main.storyboard */,
 				E46759201B4A559100BBA51E /* Images.xcassets */,
 				E46759221B4A559100BBA51E /* LaunchScreen.xib */,
@@ -305,6 +315,7 @@
 				E467594B1B4A561A00BBA51E /* XHAmazingLoadingStarAnimation.m in Sources */,
 				E467595E1B4A5AA300BBA51E /* StarAnimationExample.m in Sources */,
 				E46759581B4A5A2600BBA51E /* DemoItem.m in Sources */,
+				E4EABE191B4D219E00408810 /* SkypeAnimationExample.m in Sources */,
 				E46759521B4A578600BBA51E /* XHLayerHelper.m in Sources */,
 				E46759191B4A559100BBA51E /* AppDelegate.m in Sources */,
 				E46759161B4A559100BBA51E /* main.m in Sources */,
@@ -312,6 +323,7 @@
 				E467595B1B4A5A9600BBA51E /* MusicsAnimationExample.m in Sources */,
 				E467594A1B4A561A00BBA51E /* XHAmazingLoadingMusicsAnimation.m in Sources */,
 				E46759551B4A598600BBA51E /* RootTableViewController.m in Sources */,
+				E4EABE161B4D216600408810 /* BaseAnimationViewController.m in Sources */,
 				E467594E1B4A562600BBA51E /* XHAmazingLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

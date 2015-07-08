@@ -11,6 +11,7 @@
 typedef NS_ENUM(NSUInteger, XHAmazingLoadingAnimationType) {
     XHAmazingLoadingAnimationTypeStar,
     XHAmazingLoadingAnimationTypeMusic,
+    XHAmazingLoadingAnimationTypeSkype,
 };
 
 @interface XHAmazingLoadingView : UIView
