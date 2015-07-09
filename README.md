@@ -1,7 +1,8 @@
 ![image](https://github.com/xhzengAIB/LearnEnglish/raw/master/Screenshots/XHAmazingLoading.gif)
 
 ## XHAmazingLoading
-XHAmazingLoading indicators or load view based on CAReplicatorLayer class and CoreAnimation
+XHAmazingLoading indicators or load view based on CAReplicatorLayer class and CoreAnimation, like skype / music.
+
 
 ## Podfile
 
